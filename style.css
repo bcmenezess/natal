@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+    margin: 0;
+    background-image: url(red-christmas-1njh3asnqgbf6jxr.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0.1px;
+}
+
+.mountains-of-christmas-regular {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .mountains-of-christmas-bold {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .festive-regular {
+    font-family: "Festive", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.titulo{
+    display: flex;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 80px;
+    text-shadow: 1px 1px 8px black;
+    justify-content: center;
+    text-wrap: pretty;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.container p{
+    display: flex;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 28px;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 4px black;
+    justify-content: center;
+    text-wrap: pretty;
+}
+
+.carrosel{
+    display: flex;
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+}
+
+.avancar, .voltar{
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 98%;
+    transform: translateX(-98%);
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.815);
+    color: black;
+    font-size: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.voltar{
+    left: 2%;
+    transform: translateX(2%);
+}
+
+.avancar:hover, .voltar:hover{
+    transition: ease 0.4s;
+    scale: 1.1;
+}
+
+.carrosel img{
+    z-index: -1;
+    width: 100%;
+    box-shadow: 0px 0px 20px 8px white;
+}
+
+@media screen and (max-width: 450px){
+    .titulo{
+        font-size: 60px;
+    }
+
+    .container p{
+        width: 300px;
+        font-size: 24px;
+    }
+}
