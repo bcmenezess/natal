@@ -1,4 +1,4 @@
-const imagens = ["../assets/gorro.gif", "../assets/rena.gif", "../assets/grinch.gif"];
+const imagens = ["gorro.gif", "rena.gif", "grinch.gif"];
 const texto = ["Você vestindo o maior gorro do mundo! Cabeça de globo terrestre hahaha",
     "Você com skin de viada hahahaha com essa reninha aí, deu até vontade de comprar um trenó pra mim",
     "Você toda natalina, e eu peludo verde inimigo do Natal (estou caçando o dingo bel)"
